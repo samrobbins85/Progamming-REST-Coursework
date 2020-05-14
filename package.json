@@ -1,0 +1,25 @@
+{
+  "name": "assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "pretest": "eslint ./",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "is-url": "^1.2.4",
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-jest": "^22.5.1"
+  }
+}
